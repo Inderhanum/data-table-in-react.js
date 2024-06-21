@@ -32,10 +32,11 @@ button{
   outline: none;
   border: 0;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 8px 2px;
   box-sizing: border-box;
   border-radius: 5px;
   font-family: 'Playpen Sans';
+  
 }
 button{
   font-weight: 600;
@@ -43,7 +44,7 @@ button{
   cursor: pointer;
 }
 .add{
-  background-color: aqua;
+  background-color: rgb(55, 123, 251);
   color: #fff;
   font-weight: 600;
 }
@@ -104,7 +105,7 @@ table th{
   color: #fff;
   text-transform: uppercase;
 }
-@media only screen and (max-width){
+@media only screen and (max-width:600px){
   tr th{
     min-width: unset;
   }

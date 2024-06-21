@@ -1,4 +1,5 @@
 const DataTable=()=>{
+    c
     return <div className='container'>
         <div className='add-container'>
         <div className='info-continer'>
@@ -9,7 +10,7 @@ const DataTable=()=>{
         <button className='add'>ADD</button>
         </div>
         <div className='search-table-container'>
-        <input type='text' placeholder='Search' className='search-input' value={''} onchange={()=>{}}/>
+        <input type='text' placeholder='Search by Name' className='search-input' value={''} onchange={()=>{}}/>
         <table>
             <thead>
                 <tr>
@@ -20,7 +21,7 @@ const DataTable=()=>{
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                {/* <tr>
                     <td></td>
                     <td></td>
                     <td></td>
@@ -28,7 +29,7 @@ const DataTable=()=>{
                         <button className='edit'>Edit</button>
                         <button className='delete'>Delete</button>
                     </td>
-                </tr>
+                </tr> */}
             </tbody>
         </table>
         <div className='pagination'>
